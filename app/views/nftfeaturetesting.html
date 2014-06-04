@@ -1,0 +1,301 @@
+<!-- NFT MAIN FOR TESTING PURPOSES - NOT COPYING -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta property="fb:app_id" content="164057336974623" /><!-- FB validation -->
+<title>NOT FOR TOURISTS</title>
+
+<meta name="description" content="Not For Tourists is a growing series of guides to major cities. Our philosophy is simple: people need to use the cities they live in, commute into, or travel to effectively. They need to use their city’s transportation systems; its governmental infrastructure; its shops, restaurants, and nightspots—and they need all of this information while they’re on the move in a format that’s more accessible than the Yellow Pages, more informative than Zagat’s, and more useful than any tourist’s guide.">
+<meta name="keywords" content="NFT, Not For Tourists, New York, New York City, NYC, The Big Apple, Manhattan, Brooklyn, Queens, Bronx, Staten Island, Five Boroughs, New Jersey,City Guidebooks, Maps, blog, Urban Neighborhoods, Travel.">
+
+
+<!--[if lt IE 7]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE7.js" type="text/javascript"></script>
+<![endif]-->
+
+<link rel="stylesheet" type="text/css" media="all" href="/js10/jScrollPane.css" />
+<link href="/nft_new.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="/js10/jquery.js"></script> 
+<script src="/js10/jquery.scrollTo-1.4.2-min.js" type="text/javascript"></script>
+<script src="/js10/jquery.localscroll-1.2.7-min.js" type="text/javascript"></script>
+<script src="/js10/jquery.serialScroll-1.2.2-min.js" type="text/javascript"></script>
+
+<script src="/js10/nav_menu.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js10/top_slider.js" type="text/javascript" charset="utf-8"></script>
+<!--UPDATED--><script type="text/javascript" src="/js10/jquery.mousewheel.js"></script>
+<!--UPDATED--><script type="text/javascript" src="/js10/jScrollPane.js"></script>
+<!--UPDATED--><script src="/js10/scrollbars.js" type="text/javascript"></script>
+
+<!-- GUARDIAN - put in 12/30/2011 through michael S. -->
+<script type="text/javascript">
+    function DM_onSegsAvailable(rsinetsegs, csid) {
+        if (csid == "e05516") {
+            var e = document.createElement("script");
+            e.language = "JavaScript";
+            e.type = "text/javascript";
+
+
+            e.src = "http://oas.guardian.co.uk/adstream.cap/123?c=rsi_segs&va=" + rsinetsegs.join('|') + "&e=90d";
+
+
+            if (document.body == null) {    // we're in the head
+                document.getElementsByTagName("head")[0].appendChild(e);
+            } else {                        // we're in the body
+                document.body.insertBefore(e, document.body.firstChild);
+            }
+        }
+    }
+</script>
+<script src="http://js.revsci.net/gateway/gw.js?csid=E05516&auto=t"></script>
+<!-- END GUARDIAN -->
+
+
+
+<!-- BEGIN TAN HEADER Tag -->
+	<script src="http://www.traveladvertising.com/Live/TanHeader.aspx?PlacementId=24736" 
+		language="javascript" type="text/javascript"></script>
+<!-- END TAN HEADER Tag -->
+
+
+</head>
+
+<!--NotForTourists re-design and light front-end development by Robert Little, rlittledesign.com
+NotForTourists is developed by Juan Molinari juanolator @ gmail.com...
+Enjoy.-->
+
+
+<body onload="initializeCarouselMaps();" onunload="GUnload();">
+
+<!-- FACEBOOK API -->
+<div id="fb-root"></div>
+<script>	(function (d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=164057336974623";
+		fjs.parentNode.insertBefore(js, fjs);
+	} (document, 'script', 'facebook-jssdk'));
+</script>
+
+
+<!-- begin quanttag code -- if ads are on -->
+
+
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+    var _qevents = _qevents || [];
+
+    (function () {
+        var elem = document.createElement('script');
+        elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+        elem.async = true;
+        elem.type = "text/javascript";
+        var scpt = document.getElementsByTagName('script')[0];
+        scpt.parentNode.insertBefore(elem, scpt);
+    })();
+
+    _qevents.push({
+        qacct: "p-f2GPA3jN41V86"
+    });
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-f2GPA3jN41V86.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag -->
+
+
+
+
+<script src="js10/tabs.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="js10/iepngfix_tilebg.js"></script>
+
+<form name="form1" method="post" action="default.aspx" id="form1">
+<div>
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-6073314-1");
+pageTracker._trackPageview();
+</script>
+
+
+
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAqDb8ZmlkNHNbk77zw8Z1AhTRlD-4-aNzK92tVqdJh9wDmo0YnhRCEH0b7la-yyHeyiGQ_8hq3vu7Zw" type="text/javascript"></script>
+<script>
+function initializeCarouselMaps() { 
+var map;
+var customUI;
+var catIcon;
+var markerOptions;
+var point;
+if (GBrowserIsCompatible()) { 
+map = new GMap2(document.getElementById("carouselMap0"));
+map.setCenter(new GLatLng(40.718925, -73.960942), 15);
+customUI = map.getDefaultUI();
+customUI.controls.smallzoomcontrol3d = false;
+customUI.controls.zoomcontrols = false;
+customUI.controls.menumaptypecontrol = false;
+map.setUI(customUI);
+catIcon = new GIcon(G_DEFAULT_ICON);
+catIcon.iconSize = new GSize(22, 32);
+catIcon.iconAnchor = new GPoint(11, 25);
+catIcon.shadow = "images10/google_pins/pin_shadow.png";
+catIcon.image = "images10/google_pins/pin_restaurants.png";
+markerOptions = { icon : catIcon };
+point = new GLatLng(40.718925, -73.960942);
+map.addOverlay(new GMarker(point, markerOptions ) );
+
+
+map = new GMap2(document.getElementById("carouselMap1"));
+map.setCenter(new GLatLng(38.895599, -77.030796), 15);
+customUI = map.getDefaultUI();
+customUI.controls.smallzoomcontrol3d = false;
+customUI.controls.zoomcontrols = false;
+customUI.controls.menumaptypecontrol = false;
+map.setUI(customUI);
+catIcon = new GIcon(G_DEFAULT_ICON);
+catIcon.iconSize = new GSize(22, 32);
+catIcon.iconAnchor = new GPoint(11, 25);
+catIcon.shadow = "images10/google_pins/pin_shadow.png";
+catIcon.image = "images10/google_pins/pin_restaurants.png";
+markerOptions = { icon : catIcon };
+point = new GLatLng(38.895599, -77.030796);
+map.addOverlay(new GMarker(point, markerOptions ) );
+
+
+map = new GMap2(document.getElementById("carouselMap2"));
+map.setCenter(new GLatLng(34.098263, -118.275069), 15);
+customUI = map.getDefaultUI();
+customUI.controls.smallzoomcontrol3d = false;
+customUI.controls.zoomcontrols = false;
+customUI.controls.menumaptypecontrol = false;
+map.setUI(customUI);
+catIcon = new GIcon(G_DEFAULT_ICON);
+catIcon.iconSize = new GSize(22, 32);
+catIcon.iconAnchor = new GPoint(11, 25);
+catIcon.shadow = "images10/google_pins/pin_shadow.png";
+catIcon.image = "images10/google_pins/pin_nightlife.png";
+markerOptions = { icon : catIcon };
+point = new GLatLng(34.098263, -118.275069);
+map.addOverlay(new GMarker(point, markerOptions ) );
+
+
+map = new GMap2(document.getElementById("carouselMap3"));
+map.setCenter(new GLatLng(37.792734, -122.42146), 15);
+customUI = map.getDefaultUI();
+customUI.controls.smallzoomcontrol3d = false;
+customUI.controls.zoomcontrols = false;
+customUI.controls.menumaptypecontrol = false;
+map.setUI(customUI);
+catIcon = new GIcon(G_DEFAULT_ICON);
+catIcon.iconSize = new GSize(22, 32);
+catIcon.iconAnchor = new GPoint(11, 25);
+catIcon.shadow = "images10/google_pins/pin_shadow.png";
+catIcon.image = "images10/google_pins/pin_restaurants.png";
+markerOptions = { icon : catIcon };
+point = new GLatLng(37.792734, -122.42146);
+map.addOverlay(new GMarker(point, markerOptions ) );
+
+
+map = new GMap2(document.getElementById("carouselMap4"));
+map.setCenter(new GLatLng(40.7446764, -73.9887154), 15);
+customUI = map.getDefaultUI();
+customUI.controls.smallzoomcontrol3d = false;
+customUI.controls.zoomcontrols = false;
+customUI.controls.menumaptypecontrol = false;
+map.setUI(customUI);
+catIcon = new GIcon(G_DEFAULT_ICON);
+catIcon.iconSize = new GSize(22, 32);
+catIcon.iconAnchor = new GPoint(11, 25);
+catIcon.shadow = "images10/google_pins/pin_shadow.png";
+catIcon.image = "images10/google_pins/pin_nightlife.png";
+markerOptions = { icon : catIcon };
+point = new GLatLng(40.7446764, -73.9887154);
+map.addOverlay(new GMarker(point, markerOptions ) );
+
+
+}
+}
+</script>
+
+
+<div id="shell">
+
+<div id="header">
+    <a href="/Default.aspx?redirect-false"><img src="images10/nft_logo_onblack.png" alt="Not For Tourists" /></a>
+    <span style="position: absolute; top:5px; right:9px;">
+    
+        
+
+    <script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+    </script>
+    <script type="text/javascript">
+      GS_googleAddAdSenseService("ca-pub-0754633364533195");
+      GS_googleEnableAllServices();
+    </script>
+    <script type="text/javascript">
+      GA_googleAddSlot("ca-pub-0754633364533195", "HomepageLeaderboard");
+    </script>
+    <script type="text/javascript">
+      GA_googleFetchAds();
+    </script>
+
+    <script type="text/javascript">
+      GA_googleFillSlot("HomepageLeaderboard");
+    </script>
+
+
+
+
+
+    </span>
+</div>
+
+<div id="header_feature">
+
+    <!--******************************* SLIDER CONTAINER *******************************-->
+<div id="slider">   
+    <ul class="navigation">
+        <li><a href="#a"><img src="images10/blank.gif" /></a></li>
+        <li><a href="#b"><img src="images10/blank.gif" /></a></li>
+        <li><a href="#c"><img src="images10/blank.gif" /></a></li>
+        <li><a href="#d"><img src="images10/blank.gif" /></a></li>
+        <li><a href="#e"><img src="images10/blank.gif" /></a></li>
+    </ul>
+    
+    <div class="scroll">
+        <div class="scrollContainer">
+
+            
+
+            
+                    <div id="rptTopPicks_ctl00_pnlTopPick" class="panel">
+    
+
+                        <div id="map"><div id="carouselMap0" style="width: 
